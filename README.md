@@ -6,6 +6,16 @@
 
 ---
 
+
+**EnigMano** is forged from two powerful concepts:  
+- **Enigma** — a puzzle wrapped in shadows, precision, and quiet strength.  
+- **Mano** — the “hand” that commands, controls, and executes with unwavering resolve.  
+
+Together, **EnigMano** embodies *“The Hand of Mystery”* — a silent guardian orchestrating the life and legacy of every fortress instance with masterful precision and hidden grace.
+
+---
+
+
 ## 🔥 What Is This?
 
 This GitHub Actions workflow automates deploying **EnigMano** instances — Windows fortress environments orchestrated with stealth and precision.  
