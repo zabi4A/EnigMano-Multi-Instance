@@ -31,6 +31,17 @@ Trigger it manually, input your **instance number**, and let the silent hand exe
 - Downloads and executes the latest `EnigMano-instance.ps1` script  
 - Clear, step-by-step logging for easy tracking  
 - Final status report on completion  
+- **Automated Chrome extension deployment** across multiple isolated profiles  
+  - Extensions installed include:  
+    - **WebRTC Protect**  
+    - **Video Quality Settings**  
+    - **Random YouTube Video**  
+    - **Proton VPN**  
+    - **Stop Autoplay Next**  
+    - **YouTube Nonstop**  
+    - **uBlock Origin**  
+    - **Ghostery**  
+    - **Tab Auto Refresh**  
 
 ---
 
@@ -42,7 +53,13 @@ Trigger it manually, input your **instance number**, and let the silent hand exe
 4. **Validates required secrets**, aborting if missing.  
 5. **Downloads the deployment script** from a trusted source.  
 6. **Runs the PowerShell script** to deploy your EnigMano instance.  
-7. **Logs final status** with success or failure information.  
+7. **Automates Chrome extension setup**:  
+   - Detects Google Chrome installation  
+   - Forces installation of the specified extensions  
+   - Creates 5 separate Chrome profiles on the desktop  
+   - Launches all profiles briefly to validate installation  
+   - Closes all Chrome instances cleanly  
+8. **Logs final status** with success or failure information.  
 
 ---
 
@@ -63,13 +80,16 @@ Trigger it manually, input your **instance number**, and let the silent hand exe
 - GitHub secrets configured:  
   - `SECRET_SHAHZAIB` (your secret token)  
   - `NGROK_SHAHZAIB` (your Ngrok auth token)  
+- Google Chrome installed on the system  
 
 ---
 
 ## ⚠️ Notes & Tips
 
-- Keep your secrets **safe and confidential** 🔒
+- Keep your secrets **safe and confidential** 🔒  
 - Use in **secure/private environments only**  
+- Chrome profiles and extensions are **isolated per instance** to avoid conflicts  
+- Extensions installed are for **enhanced browsing, privacy, and productivity**  
 
 ---
 
